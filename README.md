@@ -8,7 +8,7 @@ Participants: [Adrián Soria Montoya](https://github.com/CyAdriDe), [Cristian Fe
 * [Challenges and problems](#challenges-and-problems)
 * [References](#references)
 ## General info
-TMA Research project based on Privacy & Ethics Monitoring, targeting the brand new social network, BeReal.<br>
+Traffic Monitoring and Analysis research project based on Privacy & Ethics Monitoring, targeting the brand new social network, BeReal.<br>
 The repository is organised as follows:
 * documentation: Extra information gathered.
 * resources: Captured traffic.
