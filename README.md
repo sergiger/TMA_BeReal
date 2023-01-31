@@ -1,5 +1,5 @@
 # Dissecting BeReal
-Participants: Adrián Soria Montoya, Cristian Fernández Jiménez, Erika Morales Muñoz, Sergi Ger & Yuanyu Zhou<br>
+Participants: [Adrián Soria Montoya](https://github.com/CyAdriDe), [Cristian Fernández Jiménez](https://github.com/crisfj00), [Erika Morales Muñoz](https://github.com/ErikaMorales8), [Sergi Ger](https://github.com/sergiger) & [Yuanyu Zhou](https://github.com/zyy55)<br>
 
 ## Table of contents
 * [General info](#general-info)
