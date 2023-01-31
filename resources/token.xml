@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2022.12.6" exportTime="Mon Jan 16 19:42:47 CET 2023">
+  <item>
+    <time>Mon Jan 16 19:39:14 CET 2023</time>
+    <url><![CDATA[https://firebaseinstallations.googleapis.com/v1/projects/alexisbarreyat-bereal/installations]]></url>
+    <host ip="142.250.184.10">firebaseinstallations.googleapis.com</host>
+    <port>443</port>
+    <protocol>https</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/v1/projects/alexisbarreyat-bereal/installations]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[UE9TVCAvdjEvcHJvamVjdHMvYWxleGlzYmFycmV5YXQtYmVyZWFsL2luc3RhbGxhdGlvbnMgSFRUUC8xLjENCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbg0KQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDYWNoZS1Db250cm9sOiBuby1jYWNoZQ0KWC1BbmRyb2lkLVBhY2thZ2U6IGNvbS5iZXJlYWwuZnQNCngtZmlyZWJhc2UtY2xpZW50OiBINHNJQUFBQUFBQUFBS3RXeWtoTkxDcEpTazBzS1ZheWlvN1ZVU3BMTFNyT3pNOVRzbEl5VXFvRkFGeWl2RVFmQUFBQQ0KWC1BbmRyb2lkLUNlcnQ6IDFEMTRBQjBDNDhCMUIyQUQyNTJDNzlENjVGNDhCQUUzN0FFRkU4QkINCngtZ29vZy1hcGkta2V5OiBBSXphU3lEc0hpbmNXVDlid1hpbW5ZMFpLblhzN21mOUMyNldVNDQNClVzZXItQWdlbnQ6IERhbHZpay8yLjEuMCAoTGludXg7IFU7IEFuZHJvaWQgMTE7IFNNLUc5MjBGIEJ1aWxkL1JRMkEuMjEwNDA1LjAwNSkNCkhvc3Q6IGZpcmViYXNlaW5zdGFsbGF0aW9ucy5nb29nbGVhcGlzLmNvbQ0KQ29ubmVjdGlvbjogS2VlcC1BbGl2ZQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpDb250ZW50LUxlbmd0aDogMTQwDQoNCh+LCAAAAAAAAACrVkrLTFGyUkotcK8sNsr3CzTTNSwpdi32zQko9TFV0lFKLCjwBCkwtDIxMDU3szCxMDe1MLNKzEspys9MsTJNNk41t7BIMTc0TTE3SjZKSbZISUsC6SstyQhLLSrOzM8D6nbzDI4vMwIKF6dkI0QTrQzN9Qz0jJVqAREvKkyHAAAA]]></request>
+    <status>200</status>
+    <responselength>1090</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8yIDIwMCBPSw0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04DQpWYXJ5OiBPcmlnaW4NClZhcnk6IFgtT3JpZ2luDQpWYXJ5OiBSZWZlcmVyDQpEYXRlOiBNb24sIDE2IEphbiAyMDIzIDE4OjM5OjE1IEdNVA0KU2VydmVyOiBFU0YNCkNhY2hlLUNvbnRyb2w6IHByaXZhdGUNCkNvbnRlbnQtTGVuZ3RoOiA2MzANClgtWHNzLVByb3RlY3Rpb246IDANClgtRnJhbWUtT3B0aW9uczogU0FNRU9SSUdJTg0KWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZg0KQWx0LVN2YzogaDM9Ijo0NDMiOyBtYT0yNTkyMDAwLGgzLTI5PSI6NDQzIjsgbWE9MjU5MjAwMCxoMy1RMDUwPSI6NDQzIjsgbWE9MjU5MjAwMCxoMy1RMDQ2PSI6NDQzIjsgbWE9MjU5MjAwMCxoMy1RMDQzPSI6NDQzIjsgbWE9MjU5MjAwMCxxdWljPSI6NDQzIjsgbWE9MjU5MjAwMDsgdj0iNDYsNDMiDQoNCnsKICAibmFtZSI6ICJwcm9qZWN0cy80MDU3Njg0ODc1ODYvaW5zdGFsbGF0aW9ucy9lcEd5czJvTlE2LTF0c0VzTWxQdUw1IiwKICAiZmlkIjogImVwR3lzMm9OUTYtMXRzRXNNbFB1TDUiLAogICJyZWZyZXNoVG9rZW4iOiAiM19BUzNxZndJTFZxZHY4RGdNWEYyVUlLTjNISjF5N01BeDFiNVlybnZ1WTJYMmVYTm1pQmdrNFJjQ1g4ZEh2OGg3SGU5eG1vNVJJaWF4eTRxVmNWODRiMHdCeEpKREpVRXFKWk12aXdVNFVlSmVJSXMiLAogICJhdXRoVG9rZW4iOiB7CiAgICAidG9rZW4iOiAiZXlKaGJHY2lPaUpGVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhjSEJKWkNJNklqRTZOREExTnpZNE5EZzNOVGcyT21GdVpISnZhV1E2TldNelpUYzRPR1EzTVRWa056SmpNbVJqT0dSbVlpSXNJbVY0Y0NJNk1UWTNORFE1T1RFMU5Td2labWxrSWpvaVpYQkhlWE15YjA1Uk5pMHhkSE5GYzAxc1VIVk1OU0lzSW5CeWIycGxZM1JPZFcxaVpYSWlPalF3TlRjMk9EUTROelU0Tm4wLkFCMkxQVjh3UlFJaEFKTnhlZWgzUnJkdFRfTGVpc3cxZ2VzOUEzQXRBX2dDYzhlSWZlZkM3RnEyQWlCamFDR1pwR3FueVRlanB4eHdxR0FGYXc5eEhLanJaRzliR3E5ZGtjMDJ2dyIsCiAgICAiZXhwaXJlc0luIjogIjYwNDgwMHMiCiAgfQp9Cg==]]></response>
+    <comment></comment>
+  </item>
+</items>

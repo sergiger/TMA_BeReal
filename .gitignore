@@ -1,0 +1,6 @@
+# Ignora archivos del sistema Mac
+.DS_store
+# Ignora archivos de JetBrains
+.idea/
+# Ignora archivos de cache
+__pycache__/
