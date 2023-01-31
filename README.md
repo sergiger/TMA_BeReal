@@ -10,10 +10,10 @@ Participants: [Adrián Soria Montoya](https://github.com/CyAdriDe), [Cristian Fe
 ## General info
 TMA Research project based on Privacy & Ethics Monitoring, targeting the brand new social network, BeReal.<br>
 The repository is organised as follows:
-* documentation: contains all the extra information
-* resources: contains the captured traffic
-* results: generated maps and images captured are stored here
-* src: contains the source code
+* documentation: Extra information gathered.
+* resources: Captured traffic.
+* results: Generated maps and user images captured.
+* src: Source code.
 
 ## Takeaways
 *  Certain information in the HTTP request header needs to be ciphered or protected. User image URLs are accessible by anyone who knows them, no matter whether they are public, private, blurred or made in the past.
